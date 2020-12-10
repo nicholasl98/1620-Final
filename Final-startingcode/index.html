@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="Stylesheet" href="styles/style.css">
+
+
 <head>
     <meta charset="utf-8">
     <title>Nicholas Lai 1620 Final "Gallery"</title>
@@ -11,31 +16,28 @@
     <p>Hover on any thumbnail to see it bigger</p>
     <div id="thumb-bar"> </div>
 
-
-    <img class="displayed-img">
-        <img src="images/pic1.jpg" alt="pic1";
-            width="150" height="150">
-        <img src="images/pic2.jpg" alt="pic2";
-            width="150" height="150">
-        <img src="images/pic3.jpg" alt="pic3";
-            width="150" height="150">
-        <img src="images/pic4.jpg" alt="pic4";
-            width="150" height="150">
-        <img src="images/pic5.jpg" alt="pic1";
-            idth="150" height="150">
-    </class>
-
-    <img section="Large-img">
-        <img src="images/pic5.jpg" alt="largepic1";
-            width="400" height ="400">
+    <section class="Thumbnail">
+        <img class="one"src="images/pic1.jpg"/>
+        <img class="two"src="images/pic2.jpg"/>
+        <img class="three"src="images/pic3.jpg"/>
+        <img class="four"src="images/pic4.jpg"/>
+        <img class="five" src="images/pic5.jpg"/>
     </section>
 
-
-    <section id= "label">
-    <label>What effect do you want to apply?</label>
-    <input id="effect" type="text">
-    <button>Submit</button>
+    <div class="hoveredimage">
+        <img class="displayed-img"/>
+    </div>
+    <br>
+    <section id= "bottom">
+        <footer>
+        <label>What effect do you want to apply?</label>
+        <input id="effect" type="text">
+        <button id= "submit">Submit</button>
+        </footer>
     </section>
 </body>
+
+
+<script src="script/script.js"></script>
 
 </html>
