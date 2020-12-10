@@ -21,6 +21,7 @@ document.getElementById("bottom").style.visibility = "hidden"
    
 var hoveredimg = document.querySelector(".hoveredimage");
 var displayedimg= document.querySelector(".displayed-img");
+
 Array.from(document.querySelectorAll(".img")).forEach(item => {
 item.addEventListener("mouseover", event => {
 document.getElementById("bottom").style.visibility = "visible";

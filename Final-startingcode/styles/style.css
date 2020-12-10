@@ -15,13 +15,11 @@ h1 {
 
 .thumb-bar{
     text-align: center;
-    clear: both;
 }
 .img{
     border-radius: 5px;
     cursor: pointer;
-    height: 250px;
-    width: 250px;
+    height: 200px;
 }
 .hoveredimage {
     text-align: center;
