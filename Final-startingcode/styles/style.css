@@ -1,77 +1,37 @@
-div img {
-    width: 20%;
-}
 
 * {
     box-sizing: border-box;
     font-family: "montserrat", sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
+p{
+    text-align: left;
+}
 h1 {
     text-align: center;
 }
 
-.one{
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-    height: 250px;
-    width: 250px;
+.thumb-bar{
+    text-align: center;
+    clear: both;
 }
-.two{
+.img{
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
-    height: 250px;
-    width: 250px;
-}
-.three{
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-    height: 250px;
-    width: 250px;
-}
-.four{
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-    height: 250px;
-    width: 250px;
-}
-.five{
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
     height: 250px;
     width: 250px;
 }
 .hoveredimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
+    position: relative;
 }
 .displayed-img {
     margin: auto;
     display: block;
-    width: 50%;
-    height: 60%;
-    max-width: 700px;
-}
-
-.hovered {
-    font-weight: bolder;
-    position: absolute;
-    right: 25%;
-    color: #ffffff;
-    font-size: 40px;
-    transition: 0.3s;
-}
-.hovered:hover,
-.hovered:focus {
-color: rgb(255, 0, 0);
-cursor: pointer;
+    width: 100%;
+    height: 100%;
 }
 
 footer{
@@ -81,93 +41,15 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* h1{
-    text-align: center;
-}
-
-*{
-    font-family: "Montserrat", sans-serif;
-}
-
-footer {
-    text-align: center;
-    padding: 3px;
-}
-
-.model{
-    display: none;
-    position: relative;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 60%;
-    overflow: auto;
-}
-
-.displayed-img{
-    margin: auto;
-    display: block;
-    width: 50%;
-    height: 60%;
-    max-width: 700px;
-}
-
-#caption {
-margin: auto;
-display: block;
-width: 80%;
-max-width: 700px;
-text-align: center;
-color: #ccc;
-padding: 10px 0;
-height: 150px;
-}
-
-.close {
-font-weight: bolder;
-position: absolute;
-right: 25%;
-color: #ffffff;
-font-size: 40px;
-transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-color: rgb(255, 0, 0);
-cursor: pointer;
-} */
-
-
-
-
-@media screen and (min-width: 640px){
-
-
-
-
-
+@media screen and (max-width: 640px){
+    #bottom > *{
+        display:flex;
+        flex-direction: column;
+    }
+    .img{
+        border-radius: 5px;
+        cursor: pointer;
+        height: 90px;
+        width: 90px;
+    }
 }
